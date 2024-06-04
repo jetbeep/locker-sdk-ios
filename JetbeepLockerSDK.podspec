@@ -5,18 +5,18 @@
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
 #  To see working Podspecs in the CocoaPods repo see https://github.com/CocoaPods/Specs/
 # #"https://github.com/jetbeep/ios-sdk/raw/master/JetBeepFramework-1.0.126.zip"
+#  'file:///Users/samback/Projects/jetbeep/JetbeepLockerSDK/Releases/JetbeepLockerSDK.zip', :flatten => false
 
 Pod::Spec.new do |s|
 	s.name              = 'JetbeepLockerSDK'
-	s.version           = '0.0.1'
+	s.version           = "1.0.0"
 	s.summary           = 'JetBeep SDK.'
 	s.homepage          = 'https://github.com/jetbeep/ios-sdk'
 
 	s.author            = { "Oleh Hordiichuk" => "oleh.hordiichuk@jetbeep.com"  }
 	s.license           = { :type => 'The MIT License (MIT)', :file => 'LICENSE.txt' }
-	s.source            = { :http =>
-    'file:///Users/samback/Projects/jetbeep/JetbeepLockerSDK/Releases/JetbeepLockerSDK.zip', :flatten => false
-	}
+	s.source            = { :http => 'https://github.com/jetbeep/locker-sdk-ios/Releases/LockerSDK-1.0.0.zip' }
+
 	
 	s.platform          = :ios
 	s.swift_version     = '5.0'
