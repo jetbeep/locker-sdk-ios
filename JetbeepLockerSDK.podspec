@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
 
 	s.author            = { "Oleh Hordiichuk" => "oleh.hordiichuk@jetbeep.com"  }
 	s.license           = { :type => 'The MIT License (MIT)', :file => 'LICENSE.txt' }
-	s.source            = { :http => 'https://github.com/jetbeep/locker-sdk-ios/Releases/LockerSDK-1.0.0.zip' }
-
+	s.source            = { :http => 'https://github.com/jetbeep/locker-sdk-ios/tree/main/Releases/LockerSDK-1.0.0.zip' }
 	
+
 	s.platform          = :ios
 	s.swift_version     = '5.0'
 	
