@@ -7,17 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2449B91A2C119262006B65CA /* LockerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2449B9112C119262006B65CA /* LockerManager.swift */; };
+		2449B91B2C119262006B65CA /* AnyResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2449B9122C119262006B65CA /* AnyResult.swift */; };
+		2449B91C2C119262006B65CA /* LockerDeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2449B9132C119262006B65CA /* LockerDeviceView.swift */; };
+		2449B91D2C119262006B65CA /* DeviceInfoWithValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2449B9142C119262006B65CA /* DeviceInfoWithValidation.swift */; };
+		2449B91E2C119262006B65CA /* BluetoothScanButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2449B9152C119262006B65CA /* BluetoothScanButtonModifier.swift */; };
+		2449B91F2C119262006B65CA /* BluettothStatusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2449B9162C119262006B65CA /* BluettothStatusManager.swift */; };
+		2449B9202C119262006B65CA /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2449B9172C119262006B65CA /* AppView.swift */; };
+		2449B9212C119262006B65CA /* LogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2449B9182C119262006B65CA /* LogsView.swift */; };
+		2449B9222C119262006B65CA /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2449B9192C119262006B65CA /* ResultView.swift */; };
 		24DFC5D52BFF67B900240E71 /* JetbeepExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DFC5D42BFF67B900240E71 /* JetbeepExampleApp.swift */; };
-		24DFC5D72BFF67B900240E71 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DFC5D62BFF67B900240E71 /* ContentView.swift */; };
 		24DFC5D92BFF67BA00240E71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DFC5D82BFF67BA00240E71 /* Assets.xcassets */; };
 		24DFC5DD2BFF67BA00240E71 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24DFC5DC2BFF67BA00240E71 /* Preview Assets.xcassets */; };
 		35D074F0EF68D33EB8A569E4 /* Pods_JetbeepExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81636BD1CF1482B5771EFAE0 /* Pods_JetbeepExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2449B9112C119262006B65CA /* LockerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockerManager.swift; sourceTree = "<group>"; };
+		2449B9122C119262006B65CA /* AnyResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyResult.swift; sourceTree = "<group>"; };
+		2449B9132C119262006B65CA /* LockerDeviceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockerDeviceView.swift; sourceTree = "<group>"; };
+		2449B9142C119262006B65CA /* DeviceInfoWithValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceInfoWithValidation.swift; sourceTree = "<group>"; };
+		2449B9152C119262006B65CA /* BluetoothScanButtonModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothScanButtonModifier.swift; sourceTree = "<group>"; };
+		2449B9162C119262006B65CA /* BluettothStatusManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluettothStatusManager.swift; sourceTree = "<group>"; };
+		2449B9172C119262006B65CA /* AppView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		2449B9182C119262006B65CA /* LogsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogsView.swift; sourceTree = "<group>"; };
+		2449B9192C119262006B65CA /* ResultView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		24DFC5D12BFF67B900240E71 /* JetbeepExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JetbeepExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DFC5D42BFF67B900240E71 /* JetbeepExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetbeepExampleApp.swift; sourceTree = "<group>"; };
-		24DFC5D62BFF67B900240E71 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		24DFC5D82BFF67BA00240E71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24DFC5DA2BFF67BA00240E71 /* JetbeepExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = JetbeepExample.entitlements; sourceTree = "<group>"; };
 		24DFC5DC2BFF67BA00240E71 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -59,8 +75,16 @@
 		24DFC5D32BFF67B900240E71 /* JetbeepExample */ = {
 			isa = PBXGroup;
 			children = (
+				2449B9122C119262006B65CA /* AnyResult.swift */,
+				2449B9172C119262006B65CA /* AppView.swift */,
+				2449B9152C119262006B65CA /* BluetoothScanButtonModifier.swift */,
+				2449B9162C119262006B65CA /* BluettothStatusManager.swift */,
+				2449B9142C119262006B65CA /* DeviceInfoWithValidation.swift */,
+				2449B9132C119262006B65CA /* LockerDeviceView.swift */,
+				2449B9112C119262006B65CA /* LockerManager.swift */,
+				2449B9182C119262006B65CA /* LogsView.swift */,
+				2449B9192C119262006B65CA /* ResultView.swift */,
 				24DFC5D42BFF67B900240E71 /* JetbeepExampleApp.swift */,
-				24DFC5D62BFF67B900240E71 /* ContentView.swift */,
 				24DFC5D82BFF67BA00240E71 /* Assets.xcassets */,
 				24DFC5DA2BFF67BA00240E71 /* JetbeepExample.entitlements */,
 				24DFC5DB2BFF67BA00240E71 /* Preview Content */,
@@ -207,8 +231,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DFC5D72BFF67B900240E71 /* ContentView.swift in Sources */,
+				2449B91C2C119262006B65CA /* LockerDeviceView.swift in Sources */,
+				2449B91F2C119262006B65CA /* BluettothStatusManager.swift in Sources */,
 				24DFC5D52BFF67B900240E71 /* JetbeepExampleApp.swift in Sources */,
+				2449B91E2C119262006B65CA /* BluetoothScanButtonModifier.swift in Sources */,
+				2449B9202C119262006B65CA /* AppView.swift in Sources */,
+				2449B91B2C119262006B65CA /* AnyResult.swift in Sources */,
+				2449B91A2C119262006B65CA /* LockerManager.swift in Sources */,
+				2449B9222C119262006B65CA /* ResultView.swift in Sources */,
+				2449B9212C119262006B65CA /* LogsView.swift in Sources */,
+				2449B91D2C119262006B65CA /* DeviceInfoWithValidation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +376,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We need an access to bluettoth for demo.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -384,6 +417,7 @@
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We need an access to bluettoth for demo.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

@@ -5,7 +5,8 @@ target 'JetbeepExample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-   pod 'JetbeepLockerSDK', :podspec => '../JetbeepLockerSDK.podspec'
+   #pod 'JetbeepLockerSDK', :podspec => '../JetbeepLockerSDK.podspec'
+   pod 'JetbeepLockerSDK'
 
    post_install do |installer|
       xcode_base_version = `xcodebuild -version | grep 'Xcode' | awk '{print $2}' | cut -d . -f 1`
